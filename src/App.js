@@ -48,7 +48,7 @@ const Search = evt => {
             <input
               type="text"
               className="search-bar"
-              placeholder="search.."
+              placeholder="enter any city name...."
               onChange={e=>setQuery(e.target.value)}
               value={query}
               onKeyPress={Search}
